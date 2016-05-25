@@ -1,0 +1,32 @@
+<h1>Incidencias</h1>
+<p>Bienvenido al apartado de incidencias. Desde aquí podrá gestionar sus incidencias de producto y gestionar nuevas.</p>
+
+<p>
+	Hola
+	<% link_to 'Nueva incidencia' , incidencias_new_path %>
+</p>	
+
+<table border="1" style="width:100%">
+	<caption>Resumen de incidencias</caption>
+	<thead>
+	
+	<tr>
+		<th>Incidencia</th>
+		<th>fecha</th>
+		<th>cliente</th>
+	</tr>
+	
+	</thead>
+	
+	<tbody>
+		<% @misincidencias.each do |misincidencias| %>
+		<tr>
+			<td><%= misincidencias.xnc_id %> </td>
+			<td><%= misincidencias.xfecha %> </td>
+			<td><%= misincidencias.xcliente_id %> </td>
+		</tr>	
+		<% end %>
+	</tbody>	
+</table>
+
+

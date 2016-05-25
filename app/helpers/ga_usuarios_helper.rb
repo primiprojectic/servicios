@@ -1,0 +1,2 @@
+module GaUsuariosHelper
+end

@@ -1,0 +1,39 @@
+<h1>Usuarios del sistema</h1>
+<p>Bienvenido al apartado de usuarios. Desde aquí podrá gestionar los usuarios que pueden acceder a la web.</p>
+
+<p>
+	Hola
+
+</p>	
+
+<table border="1" style="width:100%">
+	<caption>Listado de usuarios</caption>
+	<thead>
+	
+	<tr>
+		<th>Usuario</th>
+		<th>clave</th>
+		<th>fecha creación</th>
+		<th>Accesos</th>
+	</tr>
+	
+	</thead>
+	
+	<tbody>
+		<% @ga_usuarios.find_each do |miusuario| %>
+		
+		<tr>
+			<td style="height:15px;"> <%= miusuario.xusuario_id %> </td>
+			<td style="height:15px;"> <%= miusuario.xllave %> </td>
+			<td style="height:15px;"> <%= miusuario.xfecha_ult_acc %> </td>
+			<td style="height:15px;"> <%= miusuario.xaccesos %> </td>
+		</tr>
+			
+		<% end %>
+	</tbody>	
+</table>
+
+
+
+
+

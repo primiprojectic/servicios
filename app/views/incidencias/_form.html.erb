@@ -1,0 +1,25 @@
+<%= form_for :CcsvIsoNc, url: incidencias_create_path do |f| %>
+
+<h2> Nuevo formulario </h2>
+<p>
+	<%= f.label :codigo %> <br>
+	<%= f.text_field :xnc_id %>
+</p>
+
+<p>
+	<%= f.label :fecha %> <br>
+	<%= f.date_field :xfecha %>
+</p>
+
+<p>
+	<%= f.label :cliente%> <br>
+	<%= f.text_field :xcliente_id %>
+</p>
+
+<p>
+	<%= f.submit %>
+</p>
+
+<% end %>
+
+

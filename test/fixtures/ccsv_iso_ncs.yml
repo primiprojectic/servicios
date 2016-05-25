@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  xnc_id: 
+  xcliente_id: MyString
+  xfecha_datetime: MyString
+
+two:
+  xnc_id: 
+  xcliente_id: MyString
+  xfecha_datetime: MyString

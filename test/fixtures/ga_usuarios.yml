@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  xusuario_id: MyString
+  xllave: MyString
+  xaccesos: 
+  xfecha_ult_acc: 2016-05-24 17:12:22
+
+two:
+  xusuario_id: MyString
+  xllave: MyString
+  xaccesos: 
+  xfecha_ult_acc: 2016-05-24 17:12:22
